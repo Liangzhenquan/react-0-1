@@ -72,7 +72,7 @@
   },
   "proxy": {
     "/v2": {
-      "target": "http://202.102.72.31:8201",
+      "target": "localhost",
       "changeOrigin": true,
       "pathRewrite": {
         "^/v2": ""
